@@ -1,0 +1,34 @@
+{
+    "songs": [
+      {
+        "id": 1,
+        "name": "When the Stars Align",
+        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+        "duration": "3:17"
+      },
+      {
+        "id": 2,
+        "name": "Mar Mar's Journey Through Orien",
+        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
+        "duration": "2:47"
+      },
+      {
+        "id": 3,
+        "name": "Sample",
+        "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
+        "duration": "1:20"
+      },
+      {
+        "id": 4,
+        "name": "How do I Say This ...",
+        "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
+        "duration": "5:40"
+      },
+      {
+        "id": 5,
+        "name": "Thanks Matt",
+        "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
+        "duration": "4:32"
+      }
+    ]
+  }
