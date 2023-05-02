@@ -1,7 +1,7 @@
 import Header from "./Header"
 import NavBar from "./NavBar";
 import Home from "./Home";
-import Songs from "./Songs";
+import SongsList from "./SongsList";
 import { Switch , Route } from "react-router-dom";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <NavBar />
       <Switch>
-      <Route exact path="/songs">
-          <Songs />
+      <Route exact path="/songslist">
+          <SongsList />
       </Route>
         <Route exact path="/">
           <Home />

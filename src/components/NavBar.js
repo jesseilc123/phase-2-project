@@ -3,18 +3,20 @@ import { NavLink } from "react-router-dom"
 
 const linkStyles = {
     display: "inline-block",
-    width: "50px",
-    padding: "12px",
-    margin: "0 6px 6px",
-    background: "blue",
+    padding: "0.25rem",
+    margin: "1rem",
+    background: "firebrick",
     textDecoration: "none",
     color: "white",
+    hover: {
+        color: "blue"
+    }
 };
 
 function NavBar() {
     return (
     <div className="navbar">
-        <NavLink exact to="/songs" style={linkStyles}>songs</NavLink>
+        <NavLink exact to="/songslist" style={linkStyles}>Songs</NavLink>
         <NavLink exact to="/" style={linkStyles}>Home</NavLink>
     </div>
     )
