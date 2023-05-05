@@ -15,7 +15,7 @@ function App() {
         <Route exact path="/songslist">
             <SongsList />
         </Route>
-        <Route exact path="/songs/:id">
+        <Route exact path="/songslist/:id">
             <SongDetail />
         </Route>
         <Route exact path="/">
