@@ -7,10 +7,14 @@ function NewSong () {
     const [genre, setGenre] = useState("")
     const [description, setDescription] = useState("")
 
+    function handleFormSubmit(e){
+        e.preventDefault()
+    }
+
     return (
         <section id="form">
             <h3>Add New Song</h3>
-            <form>
+            <form onSubmit={handleFormSubmit}>
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" value={name} onChange={e => setName(e.target.value)} />
 
