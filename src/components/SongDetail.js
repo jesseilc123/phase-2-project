@@ -19,8 +19,9 @@ function SongDetail () {
     return (
         <div>
             <h1>{name}</h1>
-            <p>{duration}</p>
-            <p>{genre}</p>
+            <p>Duration: {duration}</p>
+            <p>Genre: {genre}</p>
+            <p>Song Description:</p>
             <p>{description}</p>
         </div>
     );

@@ -5,8 +5,8 @@ function SongItem( { id, name, duration, genre } ) {
     return (
         <div>
             <h2>{name}</h2>
-            <p>{genre}</p>
-            <p>{duration}</p>
+            <p>Duration: {duration}</p>
+            <p>Genre: {genre}</p>
             <Link to={`/songslist/${id}`}>See more</Link>
         </div>
     );
