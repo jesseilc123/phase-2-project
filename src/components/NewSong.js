@@ -9,6 +9,16 @@ function NewSong () {
 
     function handleFormSubmit(e){
         e.preventDefault()
+        const formData = { name, duration, genre, description }
+        fetch("http://localhost:3000/songs", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(r => r.json())
+            .then(data => console.log(data))
     }
 
     return (

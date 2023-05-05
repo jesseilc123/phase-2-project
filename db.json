@@ -1,39 +1,39 @@
 {
-    "songs": [
-      {
-        "id": 1,
-        "name": "When the Stars Align",
-        "duration": "3:17",
-        "genre": "Rock",
-        "description": "The song starts with a heavy guitar riff that instantly grabs your attention. The chorus explodes with energy as the guitars and drums reach a crescendo. The second verse delves deeper into the struggles of the protagonist, painting a vivid picture of their frustration and pain. The bridge is a moment of reflection, with the music slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final blast of guitars and drums."
-      },
-      {
-        "id": 2,
-        "name": "Mar Mar's Journey Through Orien",
-        "duration": "2:47",
-        "genre": "Rock",
-        "description": "The song opens with a pulsing bassline that sets the groove for the rest of the track. The chorus is a burst of energy, with the drums and guitar ramping up the tempo. The second verse delves deeper into the protagonist's feelings, describing the pain and heartbreak they've endured. The bridge is a moment of reflection, with the music slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final burst of guitars and drums."
-      },
-      {
-        "id": 3,
-        "name": "Sample",
-        "duration": "1:20",
-        "genre": "Jazz",
-        "description": "The song begins with a soft piano intro, accompanied by a subtle bassline and brushed drums. The chorus is a burst of energy, with the piano, bass, and drums picking up the tempo. The second verse is a continuation of the first, with the vocals delving deeper into the protagonist's inner world. The bridge is a moment of introspection, with the music slowing down and the vocals becoming more pensive. The song comes to a gentle conclusion with a final piano chord, leaving the listener feeling uplifted and inspired."
-      },
-      {
-        "id": 4,
-        "name": "How do I Say This ...",
-        "duration": "5:40",
-        "genre": "Hip Hop",
-        "description": "The song begins with a heavy bassline that sets the tone for the rest of the track. The chorus is a burst of energy, with the beat picking up the tempo and the vocals becoming more intense. The second verse delves deeper into the protagonist's story, describing the challenges they've faced and the struggles they've overcome. The bridge is a moment of reflection, with the beat slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final burst of energy, leaving the listener feeling inspired and uplifted."
-      },
-      {
-        "id": 5,
-        "name": "Thanks Matt",
-        "duration": "4:32",
-        "genre": "Pop",
-        "description": "The song begins with a catchy, upbeat melody that instantly grabs the listener's attention. The chorus is a burst of pure energy, with the melody soaring to new heights and the vocals becoming more passionate. The second verse is a continuation of the first, with the vocals describing the various feelings that come with falling in love. The bridge is a moment of reflection, with the beat slowing down and the vocals becoming more introspective. The song comes to a satisfying conclusion with a final burst of energy, leaving the listener feeling uplifted and inspired."
-      }
-    ]
-  }
+  "songs": [
+    {
+      "id": 1,
+      "name": "When the Stars Align",
+      "duration": "3:17",
+      "genre": "Rock",
+      "description": "The song starts with a heavy guitar riff that instantly grabs your attention. The chorus explodes with energy as the guitars and drums reach a crescendo. The second verse delves deeper into the struggles of the protagonist, painting a vivid picture of their frustration and pain. The bridge is a moment of reflection, with the music slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final blast of guitars and drums."
+    },
+    {
+      "id": 2,
+      "name": "Mar Mar's Journey Through Orien",
+      "duration": "2:47",
+      "genre": "Rock",
+      "description": "The song opens with a pulsing bassline that sets the groove for the rest of the track. The chorus is a burst of energy, with the drums and guitar ramping up the tempo. The second verse delves deeper into the protagonist's feelings, describing the pain and heartbreak they've endured. The bridge is a moment of reflection, with the music slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final burst of guitars and drums."
+    },
+    {
+      "id": 3,
+      "name": "Sample",
+      "duration": "1:20",
+      "genre": "Jazz",
+      "description": "The song begins with a soft piano intro, accompanied by a subtle bassline and brushed drums. The chorus is a burst of energy, with the piano, bass, and drums picking up the tempo. The second verse is a continuation of the first, with the vocals delving deeper into the protagonist's inner world. The bridge is a moment of introspection, with the music slowing down and the vocals becoming more pensive. The song comes to a gentle conclusion with a final piano chord, leaving the listener feeling uplifted and inspired."
+    },
+    {
+      "id": 4,
+      "name": "How do I Say This ...",
+      "duration": "5:40",
+      "genre": "Hip Hop",
+      "description": "The song begins with a heavy bassline that sets the tone for the rest of the track. The chorus is a burst of energy, with the beat picking up the tempo and the vocals becoming more intense. The second verse delves deeper into the protagonist's story, describing the challenges they've faced and the struggles they've overcome. The bridge is a moment of reflection, with the beat slowing down and the vocals becoming more introspective. The song comes to a powerful conclusion with a final burst of energy, leaving the listener feeling inspired and uplifted."
+    },
+    {
+      "id": 5,
+      "name": "Thanks Matt",
+      "duration": "4:32",
+      "genre": "Pop",
+      "description": "The song begins with a catchy, upbeat melody that instantly grabs the listener's attention. The chorus is a burst of pure energy, with the melody soaring to new heights and the vocals becoming more passionate. The second verse is a continuation of the first, with the vocals describing the various feelings that come with falling in love. The bridge is a moment of reflection, with the beat slowing down and the vocals becoming more introspective. The song comes to a satisfying conclusion with a final burst of energy, leaving the listener feeling uplifted and inspired."
+    }
+  ]
+}
