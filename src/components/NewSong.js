@@ -1,11 +1,14 @@
 // Will add new song to website, controlled form
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 function NewSong () {
-    const [name, setName] = useState("")
-    const [duration, setDuration] = useState("")
-    const [genre, setGenre] = useState("")
-    const [description, setDescription] = useState("")
+    const [name, setName] = useState("");
+    const [duration, setDuration] = useState("");
+    const [genre, setGenre] = useState("");
+    const [description, setDescription] = useState("");
+
+    const history = useHistory();
 
     function handleFormSubmit(e){
         e.preventDefault()
@@ -18,7 +21,10 @@ function NewSong () {
             body: JSON.stringify(formData)
         })
             .then(r => r.json())
-            .then(data => console.log(data))
+            .then(data => {
+                history.push(`/songslist/${data.id}`)
+                console.log(data)
+            })
     }
 
     return (
