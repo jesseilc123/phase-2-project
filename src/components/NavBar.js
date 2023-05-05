@@ -18,6 +18,7 @@ function NavBar () {
     <div className="navbar">
         <NavLink exact to="/" style={linkStyles}>Home</NavLink>
         <NavLink exact to="/songslist" style={linkStyles}>Songs</NavLink>
+        <NavLink exact to="/newsong" style={linkStyles}>New Song</NavLink>
 
     </div>
     );

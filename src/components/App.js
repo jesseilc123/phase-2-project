@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import Home from "./Home";
 import SongsList from "./SongsList";
 import SongDetail from "./SongDetail";
+import NewSong from "./NewSong";
 import { Switch , Route } from "react-router-dom";
 
 function App () {
@@ -17,6 +18,9 @@ function App () {
         </Route>
         <Route exact path="/songslist/:id">
             <SongDetail />
+        </Route>
+        <Route exact path="/newsong">
+            <NewSong />
         </Route>
         <Route exact path="/">
           <Home />
