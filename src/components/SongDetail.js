@@ -14,13 +14,14 @@ function SongDetail () {
 
     if(!indivSong) return <h1>loading...</h1>
 
-    const {name, duration, genre } = indivSong
+    const { name, duration, genre, description } = indivSong
 
     return (
         <div>
             <h1>{name}</h1>
             <p>{duration}</p>
             <p>{genre}</p>
+            <p>{description}</p>
         </div>
     );
 };

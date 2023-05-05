@@ -6,7 +6,7 @@ import SongsList from "./SongsList";
 import SongDetail from "./SongDetail";
 import { Switch , Route } from "react-router-dom";
 
-function App() {
+function App () {
   return (
     <div>
       <Header />
@@ -27,6 +27,6 @@ function App() {
       </Switch>
     </div>
   );
-}
+};
 
 export default App;

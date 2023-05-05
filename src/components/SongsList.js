@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import SongItem from "./SongItem"
 
-function SongsList() {
+function SongsList () {
     const [songs, setSongs] = useState([])
 
     useEffect(() => {
@@ -10,7 +10,6 @@ function SongsList() {
             .then(data => setSongs(data))
     }, [])
 
-    console.log(songs)
     return (
         <div>
             <h1>SongsList</h1>

@@ -1,9 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
-function SongItem( { id, name, duration, genre } ){
-    console.log(name)
-    return(
+function SongItem( { id, name, duration, genre } ) {
+    return (
         <div>
             <h2>{name}</h2>
             <p>{genre}</p>
