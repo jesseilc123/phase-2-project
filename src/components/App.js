@@ -9,7 +9,7 @@ import { Switch , Route } from "react-router-dom";
 
 function App () {
   return (
-    <div>
+    <div style={{backgroundColor: "lavenderblush"}}>
       <Header />
       <NavBar />
       <Switch>

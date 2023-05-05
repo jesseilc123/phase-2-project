@@ -29,8 +29,9 @@ function NewSong () {
 
     return (
         <section id="form">
-            <h3>Add New Song</h3>
             <form onSubmit={handleFormSubmit}>
+                <h3>Add New Song</h3>
+    
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" value={name} onChange={e => setName(e.target.value)} />
 
@@ -41,7 +42,7 @@ function NewSong () {
                 <input type="text" id="genre" value={genre} onChange={e => setGenre(e.target.value)} />
 
                 <label>Description:</label>
-                <input type="text" id="description" value={description} onChange={e => setDescription(e.target.value)} />
+                <textarea type="text" id="description" value={description} onChange={e => setDescription(e.target.value)} />
 
                 <button type="submit">Submit</button>
             </form>

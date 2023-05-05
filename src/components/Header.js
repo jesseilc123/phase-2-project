@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
     return (
-        <header>
-            <h1>Swagis</h1>
+        <header id="header">
+            <h1>Matsune Hiku</h1>
         </header>
     );
 }

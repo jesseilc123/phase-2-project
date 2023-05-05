@@ -11,8 +11,8 @@ function SongsList () {
     }, [])
 
     return (
-        <div>
-            <h1>SongsList</h1>
+        <div id="songList">
+            <h1>Songs List</h1>
             <div>
                 {songs.map((song) => (
                     <SongItem 
