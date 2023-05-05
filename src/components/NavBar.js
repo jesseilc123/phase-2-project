@@ -16,8 +16,9 @@ const linkStyles = {
 function NavBar() {
     return (
     <div className="navbar">
-        <NavLink exact to="/songslist" style={linkStyles}>Songs</NavLink>
         <NavLink exact to="/" style={linkStyles}>Home</NavLink>
+        <NavLink exact to="/songslist" style={linkStyles}>Songs</NavLink>
+
     </div>
     )
   }
