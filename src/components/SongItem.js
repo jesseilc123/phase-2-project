@@ -1,9 +1,14 @@
 import React from "react";
 
-function SongItem( {song} ){
-    const [name, duration, genre] = song
+function SongItem( {name, duration, genre} ){
+    console.log(name)
+
     return(
-        console.log("hi")
+        <div>
+            <h2>{name}</h2>
+            <p>{genre}</p>
+            <p>{duration}</p>
+        </div>
     );
 };
 

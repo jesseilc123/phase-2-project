@@ -18,7 +18,9 @@ function SongsList() {
                 {songs.map((song) => (
                     <SongItem 
                         key={song.id}
-                        song={songs}
+                        name={song.name}
+                        duration={song.duration}
+                        genre={song.genre}
                     />
                 ))}
             </div>
