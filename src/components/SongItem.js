@@ -1,2 +1,10 @@
-// Use to display each song 
-// pass .map from SongsList
+import React from "react";
+
+function SongItem( {song} ){
+    const [name, duration, genre] = song
+    return(
+        console.log("hi")
+    );
+};
+
+export default SongItem;

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import SongItem from "./SongItem"
 
 function SongsList() {
     const [songs, setSongs] = useState([])
@@ -13,6 +14,14 @@ function SongsList() {
     return (
         <div>
             <h1>SongsList</h1>
+            <div>
+                {songs.map((song) => (
+                    <SongItem 
+                        key={song.id}
+                        song={songs}
+                    />
+                ))}
+            </div>
         </div>
     );
 }
