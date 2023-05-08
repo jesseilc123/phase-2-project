@@ -1,6 +1,6 @@
 # Matsune Hiku's Wesbite
 
-The purpose of this project is to demonstrate the skills I've learned in React. The application is supposed to represent a mock website for a fictional singer/artist named Matsune Hiku. The project is built using mostly React/JavaScript and some CSS.
+The purpose of this project is to demonstrate the skills I've learned in React. The application is supposed to represent a mock website for a fictional singer/artist named Matsune Hiku. The project is built using mostly React/JavaScript with some HTML and CSS.
 
 ## Installation
 
@@ -46,7 +46,7 @@ The website should automatically open and is fully functional. If the website do
 
 ## Usage/Features
 
-The application is designed to function as website so feel free to navigate it as such. There are tabs to help you get through different parts of the web app. `Home` is the home page and will display some information about Hiku. `Songs` will display a list of Hiku's songs. Each song will display the name, duration, genre, and a link to `see more`. When the link is clicked, you will be navigated to the song's detail page where you will also see a brief description of the song. `New Song` will display a controlled form where Hiku can add more songs to `Songs`. Upon completing the form you will be programmatically navigated to the song's detail page. 
+The application is designed to function as a website so feel free to navigate it as such. There are tabs to help you get through different parts of the web app. `Home` is the home page and will display some information about Hiku. `Songs` will display a list of Hiku's songs. Each song will display the name, duration, genre, and a link to `see more`. When the link is clicked, you will be navigated to the song's detail page where you will also see a brief description of the song. `New Song` will display a controlled form where Hiku can add more songs to `Songs`. Upon completing the form you will be programmatically navigated to the song's detail page. 
 
 Features:
 - Use of { BrowserRouter } allowing the ability to `route` to different components
@@ -55,8 +55,8 @@ Features:
     2. `Songs`
     3. `New Song`
 - `New Song` contains a controlled form using { useState }
-- Use of db.json as API
-- Use of GET and POST fetch requests
+- Use of `db.json` as API
+- Use of `GET` and `POST` fetch requests
 - Use of programmatic navigation 
 
 ## Disclaimer
