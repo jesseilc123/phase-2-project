@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Matsune Hiku's Wesbite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this project is to demonstrate the skills I have learned in React. The application is supposed to represent a mock website for a finctional singer/artist named Matsune Hiku. The project is built using mostly React.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To install this project, follow these steps:
 
-### `npm start`
+1. Fork and clone the repo
+2. Open the Terminal within the project and type: `$ npm install react-router-dom@5` (Note we are installing v5 and not v6)
+3. Then type within the Terminal: `$ json-server --watch db.json`
+4. Opening a new terminal (do not close the previous) type: `$ npm start`
+5. When prompted with `Would you like to run the app on another port instead?` type `Y`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website should automatically open and is fully functional. If the website does open for whatever reason, in the same terminal you ran `npm start` you will see a local website (`http://localhost:`). Simply navigate to that website. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+The application is designed to function as website so feel free to navigate it as such. There are tabs to help you navigate through different parts of the web app. `Home` is the home page and will display some information about Hiku. `Songs` will display a list of Hiku's songs. Each song will display the name, duration, genre, and a link to `see more`. When the link is clicked, you will be navigated to the song page where you will also see a brief description of the song. `New Song` will display a form where Hiku can add more songs to `Songs`. Upon completing the form you will be automatically navigated to the song's page. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `npm run build`
+I welcome any contributions or suggestions to this project. If you have any feedback or would like to contribute, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork the project
+2. Create a new branch
+3. Make changes and commit them
+4. Push your changes to the branch
+5. Create a pull request
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is completed for Flatiron School. All images and content is for educational use and not to be used commerically. 
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions or concerns about this project, feel free to contact me at `jesseilc123@gmail`.
