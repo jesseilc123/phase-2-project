@@ -54,7 +54,7 @@ Features:
     1. `Home`
     2. `Songs`
     3. `New Song`
-- `New Song` contains a controlled form using { useState }
+- `New Song` contains a controlled form using `{ useState }`
 - Use of `db.json` as API
 - Use of `GET` and `POST` fetch requests
 - Use of programmatic navigation 

@@ -13,21 +13,11 @@ function App () {
       <Header />
       <NavBar />
       <Switch>
-        <Route exact path="/songslist">
-            <SongsList />
-        </Route>
-        <Route exact path="/songslist/:id">
-            <SongDetail />
-        </Route>
-        <Route exact path="/newsong">
-            <NewSong />
-        </Route>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="*">
-          <h1>404 Page not found</h1>
-        </Route>
+        <Route path="/songslist/:id" component={SongDetail}/>
+        <Route path="/songslist" component={SongsList}/>
+        <Route path="/newsong" component={NewSong}/>
+        <Route exact path="/" component={Home}/>
+        <Route path="*"><h1>404 Page not found</h1></Route>
       </Switch>
     </div>
   );
