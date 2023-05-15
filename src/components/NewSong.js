@@ -12,7 +12,13 @@ function NewSong () {
 
     function handleFormSubmit(e){
         e.preventDefault()
-        const formData = { name, duration, genre, description }
+        const formData = { 
+            name: name, 
+            duration: duration, 
+            genre: genre, 
+            description: description
+        }
+        
         fetch("http://localhost:3000/songs", {
             method: "POST",
             headers: {
