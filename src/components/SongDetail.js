@@ -20,10 +20,12 @@ function SongDetail () {
         <div className="home">
             <h1>{name}</h1>
             <div className="body">
-                <p style={{fontWeight: "bold"}}>Duration: 
+                <p style={{fontWeight: "bold"}}>
+                    Duration: 
                     <span style={{fontWeight: "normal"}}> {duration}</span>
                 </p>
-                <p style={{fontWeight: "bold"}}>Genre:
+                <p style={{fontWeight: "bold"}}>
+                    Genre:
                     <span style={{fontWeight: "normal"}}> {genre}</span>
                 </p>
                 <p style={{fontWeight: "bold"}}>Song Description</p>
